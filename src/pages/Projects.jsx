@@ -54,7 +54,7 @@ const Projects = () => {
                                 {item.desc.length > 20 ?
                                     <>{item.desc.substring(0, 150)}
                                         <Link to={`projects/${item.id}`}  >
-                                            <p className="text-red-400 ml-3">read more...</p>
+                                            <p className="text-red-400 ml-3">read more....</p>
                                         </Link>
                                     </> :
                                     item.desc

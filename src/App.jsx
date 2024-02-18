@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import Page from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import SingleProduct from './pages/SingleProduct';
  AOS.init(); // Import the CSS for AOS
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
             <Route path="/about" element={<Page />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<SingleProduct />} />
             </Routes>
           {/* </div>
         )}

@@ -44,7 +44,7 @@
     left: 0 !important;
   }
   .hero{
-    padding-top: 9rem;
+    padding-top: 2rem;
     height:150vh !important;
   }
   .main-why{
@@ -60,8 +60,16 @@
     width: 95% !important;
   }
 }
+.small{
+  background-color: rgb(209, 37, 18) !important;
+  color: white !important;
+}
 .container {
   display: flex;
+}
+.single{
+  height: 88vh;
+  padding: 0 !important;
 }
  .img-abt {
     width: 37rem!important; 

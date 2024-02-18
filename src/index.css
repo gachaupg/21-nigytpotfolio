@@ -28,17 +28,24 @@
     width:20rem !important;
         height: 20rem !important;
         padding: 1rem !important;
+        /* top: 20rem !important; */
+        /* bottom:10rem !important; */
 
+  }
+  .search{
+    padding-right:3rem !important;
+    width: 17rem !important;
   }
   .h-text{
     font-size: 1.4rem !important;
   }
   .why-ref{
-    top: 60rem !important;
+    top: 63rem !important;
     left: 0 !important;
   }
   .hero{
     padding-top: 9rem;
+    height:150vh !important;
   }
   .main-why{
     padding-top: 14rem;

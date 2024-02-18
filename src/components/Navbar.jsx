@@ -97,8 +97,8 @@ function DrawerAppBar(props) {
                     </div>
 
                     {/* </div> */}
-                    <div className='flex ml-3 pl-3 items-center'>
-                        <input className='flex border items-center border-slate-400 rounded-lg bg-slate-300 h-10  w-80 relative' type="text" />
+                    <div className='flex ml-3 pl-3 items-center '>
+                        <input className='flex border items-center search border-slate-400 rounded-lg bg-slate-300 h-10  w-80 relative' type="text" />
                         <Search className='absolute' />
                     </div>
 

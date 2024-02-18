@@ -13,8 +13,8 @@ const Footer = () => {
     <div className="bg-slate-300 w-full flex flex-wrap items- justify-around p-1 " >
       <div className="flex flex-col items- ">
         <img className="w-36" src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
-        <div className="flex flex-col w-full items-start object-contain justify-center">
-          <div className="flex justify-center gap-6 items-center">
+        <div className="flex mr-16 flex-col w-full items-start object-contain justify-center">
+          <div className="flex justify-center gap-6  items-center">
             <GiRotaryPhone fontSize="35" size={36} className="text-orange-900 text-3xl"/> 
             <p  className="text-orange-900 ">+254 727-399-196</p>
           </div>
@@ -43,7 +43,7 @@ const Footer = () => {
         </ol>
       </div>
       <div className="flex flex-col items-center">
-        <h3 className="text-2xl text-red-600">Subscribe to our news letter</h3>
+        <h3 className="text-xl text-red-600">Subscribe to our news letter</h3>
         <div className="w-80 border rounded-lg flex flex-col gap-4 bg-slate-100 p-3 pb-2">
           <label htmlFor=""> Email</label>
           <input className="border rounded-lg h-10 border-slate-500" type="text" />

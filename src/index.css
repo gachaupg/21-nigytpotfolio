@@ -55,7 +55,7 @@ font-size: 2rem !important;}
     font-size: 1.4rem !important;
   }
   .why-ref{
-    top: 48rem !important;
+    top: 39rem !important;
     left: 0 !important;
   }
   .single{
@@ -63,8 +63,8 @@ font-size: 2rem !important;}
     height: 100vh !important;
   }
   .hero{
-    padding-top: 2rem;
-    height:110vh !important;
+    /* padding-top: 2rem; */
+    height:90vh !important;
   }
   .main-why{
     padding-top: 14rem;

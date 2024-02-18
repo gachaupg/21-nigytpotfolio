@@ -43,6 +43,9 @@
     top: 63rem !important;
     left: 0 !important;
   }
+  .single{
+    padding-top: 3rem !important;
+  }
   .hero{
     padding-top: 2rem;
     height:150vh !important;

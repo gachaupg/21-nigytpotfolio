@@ -98,11 +98,9 @@ function DrawerAppBar(props) {
 
                     {/* </div> */}
                     <div className='flex ml-3 pl-3 items-center '>
-                        <input className='flex border items-center search border-slate-400 rounded-lg bg-slate-300 h-10  w-80 relative' type="text" />
+                        <input className='flex border items-center search border-slate-500 rounded-lg bg-slate-400 h-10  w-80 relative' placeholder='search ...' type="text" />
                         <Search className='absolute' />
                     </div>
-
-
                 </div>
             </AppBar>
             <nav>

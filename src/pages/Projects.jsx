@@ -47,10 +47,10 @@ const Projects = () => {
                     return (
                         <div key={item.title} className="flex card-pro abt flex-col p-2 border rounded-lg shadow-2xl">
                             <img src={item.img} className="w-full object-fill h-80" alt="" />
-                            <h1 className="text-3xl text-red-600">
+                            <h1 className="text-xl text-red-600">
                                 {item.title}
                             </h1>
-                            <p className="text-slate-600 text-xl cursor-pointer">
+                            <p className="text-slate-600  cursor-pointer">
                                 {item.desc.length > 20 ?
                                     <>{item.desc.substring(0, 150)}
                                         <Link to={`projects/${item.id}`}  >

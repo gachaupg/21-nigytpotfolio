@@ -16,24 +16,24 @@ const Footer = () => {
         <div className="flex flex-col w-full items-start object-contain justify-center">
           <div className="flex justify-center gap-6 items-center">
             <GiRotaryPhone fontSize="35" size={36} className="text-orange-900 text-3xl"/> 
-            <p  className="text-orange-900 text-2xl">+254 727-399-196</p>
+            <p  className="text-orange-900 ">+254 727-399-196</p>
           </div>
           <div className="flex justify-center gap-6 items-center">
             <TfiWorld fontSize="35" size={36} className="text-orange-900 text-3xl"/> 
-            <p  className="text-orange-900 text-2xl underline">www.21kinghts.com</p>
+            <p  className="text-orange-900  underline">www.21kinghts.com</p>
           </div>
           <div className="flex justify-center gap-6 items-center">
             <MdEmail fontSize="35" size={36} className="text-orange-900 text-3xl"/> 
-            <p  className="text-orange-900 text-2xl underline">contact@21knights.com</p>
+            <p  className="text-orange-900  underline">contact@21knights.com</p>
           </div>
           <div className="flex justify-center gap-6 items-center">
             <FaLocationDot fontSize="35" size={36} className="text-orange-900 text-3xl"/> 
-            <p  className="text-orange-900 text-2xl">Muthaiga Square 2nd Floor</p>
+            <p  className="text-orange-900 ">Muthaiga Square 2nd Floor</p>
           </div>
         </div>
       </div>
       <div className="flex flex-col gap-2 i-footer items-start object-contain justify-center pl-4">
-        <h3 className="text-2xl text-red-600">Quick Links</h3>
+        <h3 className="text-xl text-red-600">Quick Links</h3>
         <ol className="flex flex-col items-start">
           <li className="underline un">Home</li>
           <li className="underline un">About</li>

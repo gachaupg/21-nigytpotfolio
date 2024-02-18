@@ -5,26 +5,26 @@ import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
     return (
         <div data-aos="fade-right" data-aos-delay="400" className="flex w-full mt-32 items-center justify-center flex-col gap-8">
-            <h2 className="text-red-600 text-4xl">Contact us</h2>
+            <h2 className="text-red-600 text-xl">Contact us</h2>
 
             <div className="flex flex-wrap w-full gap-6 p-4 justify-between">
                 <div style={{ width: '45%' }} className="abt mb-4">
                     <div className="flex flex-col w-full items-start mb-4 object-contain justify-center">
                         <div className="flex justify-center gap-6 items-center">
                             <GiRotaryPhone fontSize="35" size={36} className="text-orange-900 text-3xl" />
-                            <p className="text-orange-900 text-2xl">+254 727-399-196</p>
+                            <p className="text-orange-900 ">+254 727-399-196</p>
                         </div>
                         <div className="flex justify-center gap-6 items-center">
                             <TfiWorld fontSize="35" size={36} className="text-orange-900 text-3xl" />
-                            <p className="text-orange-900 text-2xl underline">www.21kinghts.com</p>
+                            <p className="text-orange-900  underline">www.21kinghts.com</p>
                         </div>
                         <div className="flex justify-center gap-6 items-center">
                             <MdEmail fontSize="35" size={36} className="text-orange-900 text-3xl" />
-                            <p className="text-orange-900 text-2xl underline">contact@21knights.com</p>
+                            <p className="text-orange-900  underline">contact@21knights.com</p>
                         </div>
                         <div className="flex justify-center gap-6 items-center">
                             <FaLocationDot fontSize="35" size={36} className="text-orange-900 text-3xl" />
-                            <p className="text-orange-900 text-2xl">Muthaiga Square 2nd Floor</p>
+                            <p className="text-orange-900 ">Muthaiga Square 2nd Floor</p>
                         </div>
                     </div>
                     {/* <img src="https://res.cloudinary.com/pitz/image/upload/v1708112796/five-removebg-preview_ohiqtr.png" alt="" /> */}

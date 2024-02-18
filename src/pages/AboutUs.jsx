@@ -9,9 +9,9 @@ const Page = () => {
         <div style={{
           width: '45%'
         }} className="flex flex-col items- justify-center abt gap-11 ">
-          <h2 className="text-red-600 text-4xl text-center">About us</h2>
+          <h2 className="text-red-600 text-xl text-center">About us</h2>
           <img className="h-28 object-cover" src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
-          <p className="text-slate-500 text-xl ">
+          <p className="text-slate-500  ">
             At 21 Knights we aim to be Africa's leading Engineering, Construction, and Project
             Management organization. our pledge is to deliver extraordinary results for our
             customers and our team. This pledge is underpinned by our ability to design for the
@@ -38,7 +38,7 @@ const Page = () => {
           <div style={{ width: '45%' }} className=" flex flex-col border rounded-lg abt shadow-slate-900">
             <div className="flex flex-wrap abt p-5 items-center w-full justify-center gap-5">
               <img src="https://res.cloudinary.com/pitz/image/upload/v1708149890/3_kfjttq.png" alt="" />
-              <h2 className="text-red-600 text-4xl text-center">Our People</h2>
+              <h2 className="text-red-600 text-xl text-center">Our People</h2>
             </div>
             <div className="flex flex-wrap abt p-5 items-center w-full justify-center gap-5">
               <p>Our colleagues within the continent are the cornerstone of our success. They have helped us
@@ -48,11 +48,11 @@ const Page = () => {
                 we take part in.</p>
             </div>
             <div className="flex flex-wrap abt p-5 items-center w-full justify-center gap-5">
-              <img src="https://res.cloudinary.com/pitz/image/upload/v1708149911/2_eoduxr.png" alt="" />
+              <img className="w-36" src="https://res.cloudinary.com/pitz/image/upload/v1708149911/2_eoduxr.png" alt="" />
 
-              <h2 className="text-red-600 text-4xl text-center">Development</h2>
+              <h2 className="text-red-600 text-xl text-center">Development</h2>
             </div>
-            <div className="flex flex-wrap abt p-5 items-center w-full justify-center gap-2 p-4">
+            <div className="flex flex-wrap abt  items-center w-full justify-center gap-2 p-4">
               <p>At 21 Knights Engineering Group We constantly encourage our
                 employees on the basis of personal development whereby they take
                 professional courses to upgrade their skills which translate to
@@ -63,8 +63,8 @@ const Page = () => {
             </div>
           </div>
           <div style={{ width: '45%' }} className=" flex flex-col border items-center justify-center gap-16 rounded-lg abt shadow-slate-900">
-            <h2 className="text-red-600 text-center text-4xl">Our Core Value and Development</h2>
-            <h2 className="text-red-600 text-center text-4xl"> Values </h2>
+            <h2 className="text-red-600 text-center textxl">Our Core Value and Development</h2>
+            <h2 className="text-red-600 text-center text-xl"> Values </h2>
             <h2 className="p-4">“Values are at the core of our company's
               behaviour. Integrity, quality and safety We value
               delivering eco friendly and excellent results for our

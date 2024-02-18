@@ -63,7 +63,7 @@ const SingleProduct = () => {
                             <Typography gutterBottom variant="h5" component="div">
                                 {item.title}
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography className="text-red-600 text-xl" variant="body2" color="text.secondary">
                                 {item.desc}
                             </Typography>
                         </CardContent>

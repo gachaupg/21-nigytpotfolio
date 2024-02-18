@@ -39,7 +39,7 @@ const data = [
 ]
 const Projects = () => {
     return (
-        <div data-aos="fade-right" data-aos-delay="400" className="flex w-full mt-32 items- justify-center flex-col gap-8">
+        <div data-aos="fade-right" data-aos-delay="400" className="flex w-full mt-32 pb-4 items- justify-center flex-col gap-8">
             <h2 className="text-red-600 text-center text-4xl">Our Projects </h2>
             <div className="flex w-full  items-cent justify-center flex-wrap  gap-8">
 

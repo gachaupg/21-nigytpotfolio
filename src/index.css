@@ -44,7 +44,8 @@
     left: 0 !important;
   }
   .single{
-    padding-top: 3rem !important;
+    padding-top: 12rem !important;
+    height: 100vh !important;
   }
   .hero{
     padding-top: 2rem;

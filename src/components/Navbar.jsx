@@ -37,13 +37,23 @@ function DrawerAppBar(props) {
             </Typography>
             <Divider />
             <List>
-                {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
-                            <ListItemText primary={item} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
+                <div className=' gap-4 text-xl flex flex-col pt-7'>
+                    <NavLink exact to="/" activeClassName="active" className="text-black">
+                        Home
+                    </NavLink>
+                    <NavLink to='/about' activeClassName="active" className='text-black'>
+                        About
+                    </NavLink>
+                    <NavLink to='/blog' activeClassName="active" className='text-black'>
+                        Blog
+                    </NavLink>
+                    <NavLink to='/projects' activeClassName="active" className='text-black'>
+                        Projects
+                    </NavLink>
+                    <NavLink to='/contact' activeClassName="active" className='text-black'>
+                        Contact
+                    </NavLink>
+                </div>
             </List>
         </Box>
     );

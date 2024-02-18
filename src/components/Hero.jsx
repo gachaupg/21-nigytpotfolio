@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="pt-16">
             <div data-aos="fade-right" data-aos-delay="400" className="text-black flex hero    items-center justify-around gap-8 p-2 border-b-indigo-100 w-full">
-                <div style={{ width: '70%' }} className="flex bg-slate-400 p-2 item relative animated abt1 flex-col hero-items text-slate-300 gap-12  ">
+                <div style={{ width: '70%' }} className="flex bg-slate-400 p-2 item relative animated abt1 flex-col hero-items text-slate-300 gap-12 pl-2  ">
                     <h1 className="text-4xl text-red-600 font-bold">
                         Welcome to my <span className="bg-red-600 span text-white p-1 -5xl">21</span> Knights
                     </h1>

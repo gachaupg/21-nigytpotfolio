@@ -15,8 +15,10 @@ const data = [
 
 const Clients = () => {
   return (
-    // <div data-aos="fade-right" data-aos-delay="400" className="clients-container h-64 w-full flex flex-col items-center justify-center">
-    //   <h2 className="text-red-600 text-4xl">Our clients</h2>
+    <>      <h2 className="text-red-600 text-center text-4xl">Our clients</h2>
+
+   <div data-aos="fade-right" data-aos-delay="400" className="clients-container h-64 w-full flex flex-col items-center justify-center">
+      gugggg
       <div className="cards-wrapper gap-7">
         {data.map((item, index) => (
           // <div className="w-full " key={index}>
@@ -24,7 +26,9 @@ const Clients = () => {
           // </div>
         ))}
       </div>
-    // </div>
+     </div> 
+    </>
+    
   );
 };
 

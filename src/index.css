@@ -132,8 +132,8 @@
   padding: 20px; /* Add padding to the content */
 }
 .span{
-  width: 2rem !important;
-  height: 1.4rem !important;
+  width: 1.4rem !important;
+  height: 1rem !important;
   background-color: rgb(160, 14, 14);
   color: white;
 }

@@ -7,16 +7,12 @@ import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import Typography from '@mui/material/Typography';
-import { Search } from '@mui/icons-material';
 import { Link, NavLink } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Blog', 'Projects', 'Contact'];
 
 function DrawerAppBar(props) {
     const { window } = props;
@@ -33,7 +29,7 @@ function DrawerAppBar(props) {
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-                <img className='h-14  object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
+                <img className='h-16 object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
             </Typography>
             <Divider />
             <List>
@@ -65,29 +61,29 @@ function DrawerAppBar(props) {
             <CssBaseline />
             <AppBar className='bg-slate-100 navbar' component="nav">
                 <div className='flex items-center justify-between p-1'>
-                    <div>
-                        <IconButton
-                            color="inherit"
-                            aria-label="open drawer"
-                            edge="start"
-                            onClick={handleDrawerToggle}
-                            sx={{ mr: 2, display: { sm: 'none' } }}
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                        {/* <div > */}
-                        <Link to='/'>
-                            <Typography
-                                variant="h6"
-                                component="div"
-                                sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                    <div className='flex items-center justify-between w-full'>
+                        <div>
+                            <Link to='/'>
+                                <img className='h-12  object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
+                            </Link>
+                        </div>
+                        <div>
+                            <IconButton
+                                color="inherit"
+                                aria-label="open drawer"
+                                edge="start"
+                                onClick={handleDrawerToggle}
+                                sx={{  display: { sm: 'none' } }}
                             >
-                                <img className='h-14  object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
-                            </Typography>
-                        </Link>
+                                <MenuIcon className='menu text-4xl text-red-600' />
+                            </IconButton>
+                            {/* <div > */}
+                        </div>
+
+
                     </div>
                     <div>
-                        <div className='lg:flex md:flex gap-4 text-xl nav-none'>
+                        <div className='lg:flex md:flex items-center gap-9 text-xl nav-none mr-12'>
                             <NavLink exact to="/" activeClassName="active" className="text-black">
                                 Home
                             </NavLink>
@@ -100,17 +96,17 @@ function DrawerAppBar(props) {
                             <NavLink to='/projects' activeClassName="active" className='text-black'>
                                 Projects
                             </NavLink>
-                            <NavLink to='/contact' activeClassName="active" className='text-black'>
+                            <NavLink to='/contact' activeClassName="active" className='text-white h-10 w-20 p-1 rounded-lg bg-orange-900 w'>
                                 Contact
                             </NavLink>
                         </div>
                     </div>
 
                     {/* </div> */}
-                    <div className='flex ml-3 pl-3 items-center '>
+                    {/* <div className='flex ml-3 pl-3 items-center '>
                         <input className='flex border items-center search border-slate-500 rounded-lg bg-slate-400 h-10  w-80 relative' placeholder='search ...' type="text" />
                         <Search className='absolute' />
-                    </div>
+                    </div> */}
                 </div>
             </AppBar>
             <nav>

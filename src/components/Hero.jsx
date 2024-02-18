@@ -2,18 +2,16 @@
 
 
 const Hero = () => {
- 
+
     return (
-        <div className="">
-           
+        <div className="pt-16">
             <div data-aos="fade-right" data-aos-delay="400" className="text-black flex hero    items-center justify-around gap-8 p-2 border-b-indigo-100 w-full">
-
-
-                <div style={{ width: '70%' }} className="flex  item relative animated abt flex-col hero-items text-slate-300 gap-12 pt-4 ">
-                    <h1 className="text-6xl text-red-600 font-bold">Welcome to my  <span className="span">21</span>
-                        Knights
+                <div style={{ width: '70%' }} className="flex bg-slate-400 p-2 item relative animated abt1 flex-col hero-items text-slate-300 gap-12 pt-3 ">
+                    <h1 className="text-6xl text-red-600 font-bold">
+                        Welcome to my <span className="bg-red-600 span text-white p-1 -5xl">21</span> Knights
                     </h1>
-                    <h3 className="text-3xl h-text">
+
+                    <h3 className="text-2xl text-slate-900  h-text">
                         Connecting cities and communities across Africa
                         At 21 Knights we aim to be Africa's leading Engineering, Construction, and Project
                         Management organization. our pledge is to deliver extraordinary results for our
@@ -22,16 +20,14 @@ const Hero = () => {
                         imagination.
                     </h3>
 
-                    <button className="bg-red-600 text-white p-2 w-32 rounded-lg">Learn More</button>
-                    <div className="mt-16">
+                    <button className="bg-red-600 text-white p-2 mb-2 w-32 rounded-lg">Learn More</button>
 
-                    </div>
-                    
+
                 </div>
 
 
             </div>
-      
+
         </div>
 
     )

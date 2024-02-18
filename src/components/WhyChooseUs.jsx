@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
     return (
         <div data-aos="fade-right" data-aos-delay="400" className="flex w-full justify-center mt-5 gap-8 main-why  flex-wrap items-center">
             <div  className="text-slate-700 h-64  mt-5 why-ref card-w flex p-2 pt-3 rounded-lg bg-green-300 mb-2 items-center flex-col gap-6 left-20 ml-7 absolute">
-                    <h1 className="text-3xl bold text-red-600">Why  Choose  <span className="text-red-500">21</span> Knights</h1>
+                    <h1 className="text-3xl bold text-red-600 w-full  shadow-2xl">Why  Choose  21 Knights</h1>
                     <h1 className="text-xl">
 
                         “Values are at the core of our company's

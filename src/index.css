@@ -83,6 +83,11 @@
   opacity: 0;
   animation: slideIn 1s forwards;
 }
+@media (max-width: 768px) {
+  .img-abt {
+    height: 200px !important; /* Adjust the height as needed */
+  }
+}
 
 @keyframes slideIn {
   from {

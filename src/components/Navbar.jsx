@@ -90,13 +90,13 @@ function DrawerAppBar(props) {
                             <NavLink to='/about' activeClassName="active" className='text-black'>
                                 About
                             </NavLink>
-                            <NavLink to='/blog' activeClassName="active" className='text-black'>
+                            {/* <NavLink to='/blog' activeClassName="active" className='text-black'>
                                 Blog
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink to='/projects' activeClassName="active" className='text-black'>
                                 Projects
                             </NavLink>
-                            <NavLink to='/contact' activeClassName="active" className='text-white h-10 w-20 p-1 rounded-lg bg-orange-900 w'>
+                            <NavLink to='/contact' activeClassName="active" className='text-white h-10 w-20 p-1 pl-1 rounded-lg bg-orange-900 w'>
                                 Contact
                             </NavLink>
                         </div>

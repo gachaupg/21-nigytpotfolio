@@ -12,6 +12,7 @@ const Home = () => {
     <div className="w-full ">
       {/* <Hero /> */}
       <BackgroundSlider/>
+      <Hero/>
       {/* <Page /> */}
       <Clients/>
     

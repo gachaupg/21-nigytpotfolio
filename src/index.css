@@ -9,6 +9,9 @@
   background-color: rgb(177, 188, 253) !important;
   height: 4rem;
 }
+.mr{
+  margin-right: 43rem;
+}
 /* .container {
   display: flex;
   flex-direction: row;
@@ -20,15 +23,34 @@
 font-size: 2rem !important;}
 .nav-none {
   display: flex;
+  justify-content: space-between !important;
+  display: flex;
 }
 :root, h1, h2,h3, p, ul, li, a {
   font-family: "Calibri", sans-serif, "Roboto", sans-serif !important;
 }  
+.s-image{
+  height: 93vh;
+  margin-top: 4rem;
+}
+.abs{
+  /* left: 20rem !important; */
+  /* color:  !important; */
+}
 @media (max-width: 600px) {
   .nav-none {
    display: none !important;
 
   }
+  .mr{
+    margin-right: 0rem !important;
+  }
+  .logo{
+    margin-right: 13rem !important;
+  }
+  .s-image{
+  height: 43vh !important;
+}
   .i-footer{
     margin: 0 !important;
     padding: 0 !important;
@@ -51,11 +73,6 @@ font-size: 2rem !important;}
     padding-right:3rem !important;
     width: 17rem !important;
   }
-.s-image{
-  width: 100%;
-  object-fit: cover;
-  height: 35rem !important;
-}
   .h-text{
     font-size: 1.4rem !important;
   }
@@ -66,9 +83,6 @@ font-size: 2rem !important;}
   .single{
     padding-top: 12rem !important;
     height: 100vh !important;
-  }
-  .info{
-    width: 100% !important;
   }
   .hero{
     /* padding-top: 2rem; */
@@ -101,12 +115,26 @@ font-size: 2rem !important;}
 font-size: 2.9rem;
   }
 }
+.sus-top{
+  background-image: url('https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_21371_16457084545525256.jpg');
+  background-size: cover;
+  height: 35rem ;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
 .small{
   background-color: rgb(209, 37, 18) !important;
   color: white !important;
 }
 .container {
   display: flex;
+}
+
+li{
+   list-style: circle;
+  text-decoration: dotted !important;
+
 }
 .single{
   height: 88vh;
@@ -174,13 +202,13 @@ font-size: 2.9rem;
 }
 
 .hero{
- background-image: url('https://3a4527b4.flyingcdn.com/wp-content/uploads/2021/08/Blog-Hero.jpg');
+ /* background-image: url('https://3a4527b4.flyingcdn.com/wp-content/uploads/2021/08/Blog-Hero.jpg'); */
  
-  height: 100vh;
+  height: 50vh;
   width: 100% !important;
   background-repeat: no-repeat;
   /* opacity: 0.7; */
-  background-color: black;
+  /* background-color: black; */
   /* margin-left:  6rem; */
   opacity: 1 !important;
   /* background-color: black; */
@@ -254,10 +282,3 @@ font-size: 2.9rem;
   border-radius: 8px; /* Border radius */
   padding: 16px; /* Padding */
 }
-
-
-.error{
-  background-image: url('https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png');
-  background-size: cover;
-}
-

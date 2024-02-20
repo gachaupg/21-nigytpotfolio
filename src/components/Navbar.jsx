@@ -41,11 +41,11 @@ function DrawerAppBar(props) {
                         About
                     </NavLink>
                     <NavLink to='/sustainability' activeClassName="active" className='text-black'>
-                        Sustainability
-                    </NavLink>
-                    <NavLink to='/services' activeClassName="active" className='text-black'>
-                        Services
-                    </NavLink>
+                                Sustainability
+                            </NavLink>
+                            <NavLink to='/services' activeClassName="active" className='text-black'>
+                                Services
+                            </NavLink>
                     <NavLink to='/projects' activeClassName="active" className='text-black'>
                         Projects
                     </NavLink>
@@ -64,13 +64,14 @@ function DrawerAppBar(props) {
             <CssBaseline />
             <AppBar className='bg-slate-100 navbar' component="nav">
                 <div className='flex items-center justify-between p-1'>
-                    <div className='flex items-center justify-between w-full'>
-                        <div>
+                    <div className='flex items-center justify-between w-full mr'>
+                        <div className='logo'>
                             <Link to='/'>
                                 <img className='h-12  object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
                             </Link>
                         </div>
                         <div>
+                            
                             <IconButton
                                 color="inherit"
                                 aria-label="open drawer"

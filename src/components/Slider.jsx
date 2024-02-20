@@ -53,7 +53,7 @@ const BackgroundSlider = () => {
 
   ]
   return (
-    <div className="background-slider">
+    <div className="w-full flex items-center justify-center ">
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -85,28 +85,28 @@ const BackgroundSlider = () => {
           </div>
         </div>
         <div className="slider-item">
-          <img src="https://res.cloudinary.com/pitz/image/upload/v1708324327/2_u5kgaz.png" alt="Image 1" />
+          <img className='w-full h-full s-image' src="https://res.cloudinary.com/pitz/image/upload/v1708324327/2_u5kgaz.png" alt="Image 1" />
           <div style={{ width: '65%' }} className="info bg-sate-400">
             <h2 className='text-white text-6xl '>SOCIAL & AGRICULTURE INFRASTRACTURE</h2>
             <p className='text-slate-100 text-4xl'> We are committed to construction of public amenities for societies and building  systesm to assist in agriculture and rural  development.</p>
           </div>
         </div>
         <div className="slider-item ">
-          <img src="https://3a4527b4.flyingcdn.com/wp-content/uploads/2021/08/Blog-Hero.jpg" alt="Image 2" />
+          <img className='w-full h-full s-image' src="https://3a4527b4.flyingcdn.com/wp-content/uploads/2021/08/Blog-Hero.jpg" alt="Image 2" />
           <div style={{ width: '65%' }} className="info bg-sate-400">
             <h2 className='text-white text-6xl'>COMMERCIAL & RESIDENTIAL BUILDINGS</h2>
             <p className='text-slate-100 text-4xl'> At 21 Knights Engineering Group we offer comprehensive Commercial and Residential construction services to our customers within the continent. With our team specialized in EDGE building construction   practices we are committed to sustainable design and construction.</p>
           </div>
         </div>
         <div className="slider-item ">
-          <img src="https://theconstructor.org/wp-content/uploads/2017/02/bituminous-road-construction.jpg" alt="Image 2" />
+          <img className='w-full h-full s-image' src="https://theconstructor.org/wp-content/uploads/2017/02/bituminous-road-construction.jpg" alt="Image 2" />
           <div style={{ width: '65%' }} className="info bg-slte-400">
             <h2 className='text-white text-6xl'>HIGHWAYS & ROADS</h2>
             <p className='text-slate-100 text-4xl'> As a global construction firm specializing in roads and highways, we are exceptional at designing, building, and maintaining vital transportation  infrastructure we pride ourselves in delivering road and highway projects,  connecting communities, fostering economic growth, and advancing transportation infrastructure.</p>
           </div>
         </div>
         <div className="slider-item ">
-          <img src="https://res.cloudinary.com/pitz/image/upload/v1708323916/2_lbuhm1.png" alt="Image 2" />
+          <img className='w-full h-full s-image' src="https://res.cloudinary.com/pitz/image/upload/v1708323916/2_lbuhm1.png" alt="Image 2" />
           <div className="info  ">
             <h2>Title 2</h2>
             <p>Description 2</p>

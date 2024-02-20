@@ -11,6 +11,9 @@ import Page from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import SingleProduct from './pages/SingleProduct';
+import Services from './pages/Services';
+import Sustainability from './pages/Sustainability';
+import Error from './pages/Error';
  AOS.init(); // Import the CSS for AOS
 
 const App = () => {
@@ -27,20 +30,18 @@ const App = () => {
 
     <Suspense fallback={<div className='flex items-center justify-center w-full'>Loading...</div>}>
       <Navbar/>
-      {/* <div className="container flex items-center w-full justify-center pt-16">
-        {showItems && (
-          <div className="item animated"> */}
+ 
             <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Page />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<SingleProduct />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/sustainability" element={<Sustainability />} />
+            <Route path="*" element={<Error />} />
             </Routes>
-          {/* </div>
-        )}
        
-      </div> */}
       <Footer/>
   </Suspense>
 

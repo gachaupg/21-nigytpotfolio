@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { Link } from "react-router-dom";
-
+import Certs from "./Certs";
+import WhyChooseUs from "../components/WhyChooseUs"
 const Page = () => {
   return (
     <div data-aos="fade-right" className="pb-5" data-aos-delay="400">
@@ -79,6 +80,8 @@ const Page = () => {
           </div>
         </div>
       </div>
+      <WhyChooseUs />
+      <Certs/>
     </div>
 
   );

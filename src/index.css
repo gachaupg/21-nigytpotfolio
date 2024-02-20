@@ -51,6 +51,27 @@ font-size: 2rem !important;}
     padding-right:3rem !important;
     width: 17rem !important;
   }
+  .slider-item {
+    position: relative;
+    width: 100%;
+  /* height: 150vh !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-item img {
+    margin-top: 3rem;
+    width: 100% !important;
+    height: 90vh !important;
+    object-fit:contain;
+  }
+  .background-slider {
+    position: relative;
+    width: 100%;
+    height: 107vh !important;
+    overflow: hidden;
+  }
   .h-text{
     font-size: 1.4rem !important;
   }
@@ -245,4 +266,62 @@ font-size: 2.9rem;
   margin-right: 10px; /* Spacing between cards */
   border-radius: 8px; /* Border radius */
   padding: 16px; /* Padding */
+}
+
+
+.error{
+  background-image: url('https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png');
+  background-size: cover;
+}
+
+.background-slider {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Set height to fill the viewport */
+  overflow: hidden;
+}
+
+.slider-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item img {
+  margin-top: 3rem;
+  width: 100% !important;
+  height: 115vh;
+  object-fit:contain;
+}
+
+.info {
+  position: absolute;
+  
+  color: rgb(180, 36, 36) !important;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 16px;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .info {
+    bottom: 10px;
+    left: 10px;
+  }
+  .info h2 {
+    font-size: 20px;
+  }
+  .info p {
+    font-size: 14px;
+  }
 }

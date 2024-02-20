@@ -40,8 +40,11 @@ function DrawerAppBar(props) {
                     <NavLink to='/about' activeClassName="active" className='text-black'>
                         About
                     </NavLink>
-                    <NavLink to='/blog' activeClassName="active" className='text-black'>
-                        Blog
+                    <NavLink to='/sustainability' activeClassName="active" className='text-black'>
+                        Sustainability
+                    </NavLink>
+                    <NavLink to='/services' activeClassName="active" className='text-black'>
+                        Services
                     </NavLink>
                     <NavLink to='/projects' activeClassName="active" className='text-black'>
                         Projects
@@ -73,7 +76,7 @@ function DrawerAppBar(props) {
                                 aria-label="open drawer"
                                 edge="start"
                                 onClick={handleDrawerToggle}
-                                sx={{  display: { sm: 'none' } }}
+                                sx={{ display: { sm: 'none' } }}
                             >
                                 <MenuIcon className='menu text-4xl text-red-600' />
                             </IconButton>
@@ -89,6 +92,12 @@ function DrawerAppBar(props) {
                             </NavLink>
                             <NavLink to='/about' activeClassName="active" className='text-black'>
                                 About
+                            </NavLink>
+                            <NavLink to='/sustainability' activeClassName="active" className='text-black'>
+                                Sustainability
+                            </NavLink>
+                            <NavLink to='/services' activeClassName="active" className='text-black'>
+                                Services
                             </NavLink>
                             {/* <NavLink to='/blog' activeClassName="active" className='text-black'>
                                 Blog

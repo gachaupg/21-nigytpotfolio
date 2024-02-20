@@ -1,20 +1,21 @@
 import Hero from "../components/Hero"
-import WhyChooseUs from "../components/WhyChooseUs"
-import Page from "./AboutUs"
-import Certs from "./Certs"
+import BackgroundSlider from "../components/Slider"
+// 
+// import Page from "./AboutUs"
+// import Certs from "./Certs"
 import Clients from "./Clients"
 import Contact from "./Contact"
-import Projects from "./Projects"
+// import Projects from "./Projects"
 
 const Home = () => {
   return (
     <div className="w-full ">
-      <Hero />
-      <WhyChooseUs />
-      <Page />
+      {/* <Hero /> */}
+      <BackgroundSlider/>
+      {/* <Page /> */}
       <Clients/>
-      <Certs/>
-      <Projects/>
+    
+      {/* <Projects/> */}
       <Contact/>
 
     </div>

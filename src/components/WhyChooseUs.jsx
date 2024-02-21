@@ -21,7 +21,8 @@ const WhyChooseUs = () => {
                             Our core values define us these principles guide our
                             every action and shape our success.
                         </p>
-                    </div><div className=" lex justify-center  p-5 flex-col   items-center   w-80 bg-slate-200 rounded-lg shadow-lg">
+                    </div>
+                    <div className=" lex justify-center  p-4 flex-col   items-center   w-80 bg-slate-200 rounded-lg shadow-lg">
                         <h2 className="text-red-600 text-xl">SAFETY FIRST:</h2>
                         <p>
                             we strive for zero incidents by establishing a safety

@@ -52,32 +52,40 @@ const data = [
 ]
 const Projects = () => {
     return (
-        <div data-aos="fade-right" data-aos-delay="400" className="flex w-full mt-32 pb-4 items- justify-center flex-col gap-8">
-            <h2 className="text-red-600 text-center text-4xl">What we do </h2>
-            <div className="flex w-full  items-cent justify-center flex-wrap  gap-8">
+        <div data-aos="fade-right" data-aos-delay="400" className="w-full">
+            <div className="sus-top flex justify-center   w-full items-center ">
+                <h1>
+                    Services
+                </h1>
+            </div>
 
-                {data.map((item) => {
-                    return (
-                        <div key={item.title} className="flex card-pro abt flex-col p-2 border rounded-lg shadow-2xl">
-                            <img src={item.img} className="w-full object-cover h-80" alt="" />
-                            <h1 className="text-xl text-red-600">
-                                {item.title}
-                            </h1>
-                            <p className="text-slate-600  cursor-pointer">
-                                {item.desc.length > 20 ?
-                                    <>{item.desc.substring(0, 150)}
-                                        <NavLink to={`/projects/${item.id}`}  >
-                                            <p className="text-red-400 ml-3">read more....</p>
-                                        </NavLink>
-                                    </> :
-                                    item.desc
-                                }
-                            </p>
+            <div data-aos="fade-right" data-aos-delay="400" className="flex w-full mt-32 pb-4 items- justify-center flex-col gap-8">
+                <h2 className="text-red-600 text-center text-4xl">What we do </h2>
+                <div className="flex w-full  items-cent justify-center flex-wrap  gap-8">
 
-                        </div>
-                    )
-                })}
+                    {data.map((item) => {
+                        return (
+                            <div key={item.title} className="flex card-pro abt flex-col p-2 border rounded-lg shadow-2xl">
+                                <img src={item.img} className="w-full object-cover h-80" alt="" />
+                                <h1 className="text-xl text-red-600">
+                                    {item.title}
+                                </h1>
+                                <p className="text-slate-600  cursor-pointer">
+                                    {item.desc.length > 20 ?
+                                        <>{item.desc.substring(0, 150)}
+                                            <NavLink to={`/projects/${item.id}`}  >
+                                                <p className="text-red-400 ml-3">read more....</p>
+                                            </NavLink>
+                                        </> :
+                                        item.desc
+                                    }
+                                </p>
 
+                            </div>
+                        )
+                    })}
+
+                </div>
             </div>
         </div>
     )

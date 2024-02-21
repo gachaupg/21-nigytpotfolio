@@ -5,6 +5,7 @@ import BackgroundSlider from "../components/Slider"
 // import Certs from "./Certs"
 import Clients from "./Clients"
 import Contact from "./Contact"
+import Excutive from "./Excutive"
 // import Projects from "./Projects"
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
       <Hero/>
       {/* <Page /> */}
       <Clients/>
-    
+    <Excutive/>
       {/* <Projects/> */}
       <Contact/>
 

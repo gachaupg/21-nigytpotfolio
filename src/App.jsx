@@ -30,7 +30,6 @@ const App = () => {
 
     <Suspense fallback={<div className='flex items-center justify-center w-full'>Loading...</div>}>
       <Navbar/>
- 
             <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Page />} />

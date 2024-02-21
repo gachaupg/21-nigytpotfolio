@@ -6,8 +6,10 @@
   /* background-color: rgb(227, 234, 241); */
 }
 .navbar{
-  background-color: rgb(177, 188, 253) !important;
+  background-color: rgb(161, 165, 185) !important;
   height: 4rem;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+
 }
 .mr{
   margin-right: 43rem;
@@ -31,7 +33,7 @@ font-size: 2rem !important;}
 }  
 .s-image{
   height: 93vh;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 .abs{
   /* left: 20rem !important; */
@@ -41,6 +43,9 @@ font-size: 2rem !important;}
   .nav-none {
    display: none !important;
 
+  }
+  .abs{
+    display: flex !important;
   }
   .mr{
     margin-right: 0rem !important;
@@ -77,7 +82,7 @@ font-size: 2rem !important;}
     font-size: 1.4rem !important;
   }
   .why-ref{
-    top: 39rem !important;
+    top: 52rem !important;
     left: 0 !important;
   }
   .single{
@@ -103,6 +108,9 @@ font-size: 2rem !important;}
   .abt1{
     width: 100% !important;
     margin: 0 !important;padding: 0;
+  }
+  .slider{
+    height: 35vh !important;
   }
   .tl{
     font-size: 1rem !important;
@@ -181,7 +189,7 @@ li{
   width:25rem;
 }
 .why-ref{
-  top: 50rem;
+  top: 33rem;
 }
 .footer {
   display: flex;
@@ -202,9 +210,9 @@ li{
 }
 
 .hero{
- /* background-image: url('https://3a4527b4.flyingcdn.com/wp-content/uploads/2021/08/Blog-Hero.jpg'); */
+ background-image: url('http://spectrumgroup.info/wp-content/uploads/elementor/thumbs/mission-vission-home-pxpafu1m6lx47yowgmaov9iyvjj8qz93c3u3wr3k6s.jpg');
  
-  height: 50vh;
+  height: 80vh;
   width: 100% !important;
   background-repeat: no-repeat;
   /* opacity: 0.7; */
@@ -213,6 +221,11 @@ li{
   opacity: 1 !important;
   /* background-color: black; */
   background-size: cover;
+}
+.ex-image{
+  height: 50vh;
+  width: 100%;
+  background-image: url('https://www.tbcfx.com/statics/images/banner_31.jpg')
 }
 
 .hero-items{
@@ -281,4 +294,27 @@ li{
   margin-right: 10px; /* Spacing between cards */
   border-radius: 8px; /* Border radius */
   padding: 16px; /* Padding */
+}
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+
+.animate-right-to-left {
+  animation: slideRightToLeft 1s ease;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

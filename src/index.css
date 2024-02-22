@@ -39,6 +39,9 @@ font-size: 2rem !important;}
   /* left: 20rem !important; */
   /* color:  !important; */
 }
+/* .slider{ */
+  /* height: 30rem;
+} */
 @media (max-width: 600px) {
   .nav-none {
    display: none !important;
@@ -82,7 +85,7 @@ font-size: 2rem !important;}
     font-size: 1.4rem !important;
   }
   .why-ref{
-    top: 52rem !important;
+    top: 82rem !important;
     left: 0 !important;
   }
   .single{
@@ -98,6 +101,7 @@ font-size: 2rem !important;}
   }
   .cad-l{
     margin-left: 0 !important;
+    margin-top: 5rem !important;
   }
   .card-pro{
     width: 18rem !important;
@@ -189,7 +193,7 @@ li{
   width:25rem;
 }
 .why-ref{
-  top: 33rem;
+  top: 65rem;
 }
 .footer {
   display: flex;

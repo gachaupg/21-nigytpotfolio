@@ -4,7 +4,7 @@
 const Hero = () => {
 
     return (
-        <div className="pt-16">
+        <div className="">
             <div data-aos="fade-right" data-aos-delay="400" className="text-black flex hero    items-center justify-around gap-8 p-2 border-b-indigo-100 w-full">
                 <div style={{ width: '70%' }} className="flex bg-slate-400 p-2 item relative animated abt1 flex-col hero-items text-slate-300 gap-12 pl-2  ">
                     <h1 className="text-4xl text-red-600 font-bold">
@@ -19,15 +19,9 @@ const Hero = () => {
                         world, inscribe our commitment with our actions, and construct with boundless
                         imagination.
                     </p>
-
                     <button className="bg-red-600 text-white p-2 mb-2 w-32 rounded-lg">Learn More</button>
-
-
                 </div>
-
-
             </div>
-
         </div>
 
     )

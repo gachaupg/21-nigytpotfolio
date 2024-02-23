@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="bg-slate-300 w-full flex flex-wrap items- justify-around p-1 " >
       <div className="flex flex-col items- ">
-        <img className="w-36" src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
+        <img className="w-36" src="https://res.cloudinary.com/pitz/image/upload/v1708692038/Capture-removebg-preview_1_uhlkrr.png" alt="" />
         <div className="flex mr-16 flex-col w-full items-start object-contain justify-center">
           <div className="flex justify-center gap-6  items-center">
             <GiRotaryPhone fontSize="35" size={36} className="text-orange-900 text-3xl"/> 

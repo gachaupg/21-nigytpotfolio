@@ -27,7 +27,7 @@ export default function App() {
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId={4} className="carousel-item animate-right-to-left">
-          <img src='https://res.cloudinary.com/pitz/image/upload/v1708114893/Capture_actys7.png' className='d-block w-100 s-image' alt='...' />
+          <img src='https://res.cloudinary.com/pitz/image/upload/v1708692494/Capture_edschp.png' className='d-block w-100 s-image' alt='...' />
           <MDBCarouselCaption className='absolute top-96 bottom-40 left- p-1 right- asb bg-slate-400  h-52 w-96'>
             <h2 className='text-red-600'>COMMERCIAL & RESIDENTIAL BUILDINGS</h2>
             <p>At 21 Knights Engineering Group we offer comprehensive Commercial and Residential construction services to our customers within the continent.</p>

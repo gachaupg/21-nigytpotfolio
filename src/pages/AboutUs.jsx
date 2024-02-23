@@ -18,7 +18,7 @@ const Page = () => {
           width: '45%'
         }} className="flex flex-col items- justify-center abt gap-11 ">
           {/* <h2 className="text-red-600 text-xl text-center">About us</h2> */}
-          <img className="h-28 object-cover" src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
+          <img className="h-28 object-cover" src="https://res.cloudinary.com/pitz/image/upload/v1708692038/Capture-removebg-preview_1_uhlkrr.png" alt="" />
           <p className="text-slate-500  ">
             At 21 Knights we aim to be Africa's leading Engineering, Construction, and Project
             Management organization. our pledge is to deliver extraordinary results for our

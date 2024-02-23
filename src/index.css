@@ -6,7 +6,7 @@
   /* background-color: rgb(227, 234, 241); */
 }
 .navbar{
-  background-color: rgb(189, 198, 235) !important;
+  background-color: #A8B5D1  !important;
   height: 4rem;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 
@@ -32,7 +32,7 @@ font-size: 2rem !important;}
   font-family: "Calibri", sans-serif, "Roboto", sans-serif !important;
 }  
 .s-image{
-  height: 97vh !important;
+  height: 92vh !important;
   /* margin-top: 4rem; */
 }
 .abs{

@@ -67,7 +67,7 @@ function DrawerAppBar(props) {
                     <div className='flex items-center justify-between w-full mr'>
                         <div className='logo'>
                             <Link to='/'>
-                                <img className='h-12  object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708016832/pic2-removebg-preview_lqtz9f.png" alt="" />
+                                <img className='h-12  object-contain ' src="https://res.cloudinary.com/pitz/image/upload/v1708692038/Capture-removebg-preview_1_uhlkrr.png" alt="" />
                             </Link>
                         </div>
                         <div>

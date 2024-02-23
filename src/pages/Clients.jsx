@@ -16,7 +16,7 @@ const data = [
 const Clients = () => {
   return (
     <>     
-     <h2 className="text-red-600 text-center text-4xl">Our clients</h2>
+     <h2 className="text-red-600 text-center mt-2 text-4xl">Our clients</h2>
       <div data-aos="fade-right" data-aos-delay="400" className="clients-container h-64 w-full flex flex-col items-center justify-center">
         <div className="cards-wrapper gap-7">
           {data.map((item) => (

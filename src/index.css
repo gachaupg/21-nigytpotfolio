@@ -135,6 +135,13 @@ font-size: 2.9rem;
   font-size: 2rem;
   text-transform: uppercase;
 }
+.sus-top1{
+  height: 80vh;
+  width: 100% !important;
+  background-image: url('https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_21371_16457084545525256.jpg');
+
+  background-size: cover;
+}
 .small{
   background-color: rgb(209, 37, 18) !important;
   color: white !important;

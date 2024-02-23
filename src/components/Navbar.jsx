@@ -62,7 +62,7 @@ function DrawerAppBar(props) {
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
-            <AppBar className='bg-slate-100 navbar' component="nav">
+            <AppBar className='bg-slate-300 navbar' component="nav">
                 <div className='flex items-center justify-between p-1'>
                     <div className='flex items-center justify-between w-full mr'>
                         <div className='logo'>

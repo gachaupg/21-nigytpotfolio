@@ -21,7 +21,7 @@ const Clients = () => {
         <div className="cards-wrapper gap-7">
           {data.map((item) => (
             // <div className="w-full " key={index}>
-            <img key={item.image} className="h-96 w-96 object-contain" src={item.image} alt="" />
+            <img key={item.image} className="h-36 w-36 object-contain" src={item.image} alt="" />
             // </div>
           ))}
         </div>

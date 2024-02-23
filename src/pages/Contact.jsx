@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
     return (
-        <div data-aos="fade-right" data-aos-delay="400" className="flex w-full pt-40  bg-blue-100 items-center justify-center flex-col gap-8">
+        <div data-aos="fade-right" data-aos-delay="400" className="flex w-full pt-10  bg-blue-100 items-center justify-center flex-col gap-8">
             <h2 className="text-red-600 text-xl">Contact us</h2>
 
             <div className="flex flex-wrap w-full gap-6 p-4 justify-between">

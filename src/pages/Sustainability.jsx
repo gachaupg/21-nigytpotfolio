@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 const Sustainability = () => {
   return (
@@ -26,7 +27,7 @@ const Sustainability = () => {
 
         </div>
       </div>
-      <div className="flex w-full  items- justify-center flex-col mt-20 gap-2">
+      <div className="flex w-full  items- justify-center flex-col mt-10 gap-2">
         <div className="flex w-full  items- justify-center flex-wrap gap-8 ">
           <div style={{ width: '45%' }} className=" flex flex-col border rounded-lg abt shadow-slate-900">
             <div className="flex flex-wrap abt p-5 items-center w-full justify-center gap-5">

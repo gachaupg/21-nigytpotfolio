@@ -13,7 +13,7 @@ const Page = () => {
       </div>
    
     <div data-aos="fade-right" className="pb-5" data-aos-delay="400">
-      <div className="flex w-full mt-32 items- justify-center flex-wrap-reverse gap-8">
+      <div className="flex w-full mt-10 items- justify-center flex-wrap-reverse gap-8">
         <div style={{
           width: '45%'
         }} className="flex flex-col items- justify-center abt gap-11 ">

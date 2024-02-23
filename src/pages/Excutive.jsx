@@ -6,7 +6,7 @@ const Excutive = () => {
     return (
         <div data-aos="fade-right" data-aos-delay="400" className="flex w-full justify-center  gap-8 main-why  flex-wrap items-center">
             <div className='ex-image flex items-center justify-center'>
-                <h1 className='text-red-500'>Excutive Message</h1>
+                <h1 className='text-red-500'>Excutive uuiuuMessage</h1>
             </div>
             <p style={{ width: '65%' }} className=" flex flex-col abt">
                 <ImQuotesLeft color="black" size={35} />

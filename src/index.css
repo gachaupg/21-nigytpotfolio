@@ -126,19 +126,25 @@ font-size: 2rem !important;}
   .abt1 h1{
 font-size: 2.9rem;
   }
+  .sus-top1{
+    padding-top: 10rem !important;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding: 1rem !important;
+  }
 }
 .sus-top{
   background-image: url('https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_21371_16457084545525256.jpg');
   background-size: cover;
-  height: 25rem ;
+  height: 20rem ;
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
 }
 .sus-top1{
-  height: 80vh;
+  /* height: 80vh; */
   width: 100% !important;
-  background-image: url('https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_21371_16457084545525256.jpg');
+  /* background-image: url('https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_21371_16457084545525256.jpg'); */
 
   background-size: cover;
 }

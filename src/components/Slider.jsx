@@ -3,7 +3,7 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselItem } from 'mdb-react-ui-k
 
 export default function App() {
   return (
-    <div className='relative mt-16'>
+    <div className='relative '>
       <MDBCarousel className='slider' showControls>
         <MDBCarouselItem itemId={1} className="carousel-item animate-right-to-left">
           <img src='https://3a4527b4.flyingcdn.com/wp-content/uploads/2021/08/Blog-Hero.jpg' className='d-block w-1 s-image relative' alt='...' />
